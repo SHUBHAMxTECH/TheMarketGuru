@@ -1,0 +1,56 @@
+@media screen and (max-width:1124px) {
+
+    .nav {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .nav ul li a {
+        font-size: 0.5rem;
+        padding: 0px 7px;
+        padding-bottom: 8px;
+    }
+
+    .home{
+        height: 32vh;
+    }
+
+    .container{
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        height: 1170px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container::before{
+        height: inherit;
+        width: 100%;
+    }
+
+    .Services{
+        margin: 16px;
+        width: 300px;
+        font-size: 14px;
+    }
+
+    .Services::before{
+        width: 300px;
+    }
+
+    .contact::before{
+        width: 100%;
+    }
+
+    .contact h1{
+        font-size: 26px;
+    }
+
+    .contact-box form{
+        width: 80%;
+    }
+}
